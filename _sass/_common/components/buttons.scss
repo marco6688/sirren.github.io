@@ -10,12 +10,12 @@
   transition-property: background-color;
   @include the-transition();
 
-  @at-root %btn-hover {
+  @at-root %btn-hover{
     border-color: $btn-default-hover-border-color;
     color: $btn-default-hover-color;
     background: $btn-default-hover-bg;
   }
-  
+
   &:hover { @extend %btn-hover; }
 }
 

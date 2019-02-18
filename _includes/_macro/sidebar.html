@@ -13,7 +13,7 @@
 
       {% if is_post and site.toc.enable %}
         {% assign display_toc = true %}
-        {% assign str = page.content %}
+        {% assign source = page.content %}
         {% include _helper/toc.html %}
       {% endif %}
 
@@ -64,7 +64,7 @@
             </div>
           {% endif %}
 
-          {% if site.tags.length > 0 %}
+          {% if site.tags.size > 0 %}
             {% assign tagsPageQuery = site.pages | where_exp: 'page', 'page.type == "tags"' %}
             {% if tagsPageQuery.size > 0 %}
               {% assign hasTagsPage = true %}
@@ -152,7 +152,7 @@
               {% assign list_number = page.toc_number %}
             {% endif %}
             {% assign class = 'nav' %}
-            {% assign str = page.content %}
+            {% assign source = page.content %}
             {% include _helper/toc.html %}
 
             {% if toc.size <= 1 %}

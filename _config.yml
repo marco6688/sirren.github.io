@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Anchoret
-subtitle: Choose You Own Path
-description: 逢君一笑，人间无此欢喜
-author: 诗翔
+title: NexT
+subtitle:
+description:
+author: John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: zh-Hans
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
@@ -32,14 +32,16 @@ paginate: 10
   #paginate_path: "/page:num/"
 
 # Handling Reading
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
 # Separator
-excerpt_separator: <!-- more -->
+#excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
+highlight:
+  line_number: true
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
@@ -65,7 +67,7 @@ feed:
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
 plugins:
- #- jemoji
+ - jemoji
  - jekyll-sitemap
  - jekyll-feed
 
@@ -86,7 +88,7 @@ rss:
 
 # Specify the date when the site was setup
 #since: 2015
-since: 2017
+
 # icon between year and author @Footer
 authoricon: heart
 
@@ -116,12 +118,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories/
-  about: /about/
+  #categories: /categories/
+  #about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
-  commonweal: /404.html
+  #sitemap: /sitemap.xml
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -149,8 +151,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 
 
@@ -213,9 +215,8 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-social:
-    GitHub: https://github.com/ShixiangWang
-    简书: http://www.jianshu.com/u/b6608e27dc74
+
+
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -228,16 +229,12 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-  简书: etsy
 
-  
-# reward
-reward_comment: 人该是自己生活的主宰，而不是别人手里的行货
-alipay: /images/reward_image/alipay-reward-image.jpg
+
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
 #avatar:
-avatar: /images/avatar.jpg
+
 
 # Table Of Contents in the Sidebar
 toc:
@@ -247,29 +244,29 @@ toc:
   number: true
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: true
+  wrap: false
 
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-creative_commons: by-nc-sa
+#creative_commons: by-nc-sa
 #creative_commons:
 
 
 sidebar:
   # Sidebar Position, available value: left | right
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  #display: post
+  display: post
   #display: always
-  display: hide
+  #display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -289,14 +286,7 @@ sidebar:
 #links_layout: inline
 #links:
   #Title: http://example.com/
-links_title: 推荐阅读
-links:
-  阮一峰的网络日志: http://www.ruanyifeng.com/blog/archives.html
-  R的极客理想系列: http://blog.fens.me/series-r/
-  谢益辉: https://yihui.name/
-  解螺旋的矿工: http://www.huangshujia.me/
-  GuangchuangYu: https://github.com/GuangchuangYu
-  生信技能树: https://vip.biotrainee.com/
+
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -339,7 +329,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -372,7 +362,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -383,16 +373,45 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 36443ede179652b0cf6a526f12b1976f
+#baidu_analytics:
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
 disqus:
-  enable: true
-  shortname: anchoret
+  enable: false
+  shortname:
   count: true
+  # hide comments (visitors need to click to load the comments)
+  # count need to be false when hide is true
+  hide: false
+
+# <wildfire>
+wildfire:
+  enable: false
+  # version - It's recommended to use the following versions.
+  loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
+  useDev: true
+  version: 0.5.6 
+  # database config
+  databaseProvider: firebase # or wilddog
+  firebase: # your firebase config goes here ↓
+    apiKey: 
+    authDomain:
+    databaseURL:
+    projectId:
+    storageBucket:
+    messagingSenderId:
+  wilddog: # your wilddog config goes here ↓
+    siteId:
+  # other configs
+  theme: light # or dark
+  locale: en # or other locales, e.g. zh-CN
+  defaultAvatarURL: 
+# Any question? 
+# Raise an issue here: https://github.com/cheng-kang/wildfire/issues
+# </wildfire>
 
 # Hypercomments
 #hypercomments_id:
@@ -412,7 +431,16 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-# livere_uid: MTAyMC8zMDEwMC82NjU1
+#livere_uid: your uid
+
+# Support for gitalk comments system.
+gitalk:
+  enable: false
+  clientID: # 54730ddf7b9420460c03
+  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
+  repo: # colingpt.github.io
+  owner: # colingpt
+  admin: # colingpt
 
 # Baidu Share
 # Available value:
@@ -451,7 +479,7 @@ changyan:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: false
+  ua_enable: true
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
@@ -496,26 +524,26 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: J1PN5476W4
-  app_key: 508d34e64e33acd2694a3fe89c91eef7
+  app_id: #<app_id>
+  app_key: #<app_key>
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: true
+  enable: false
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: 本站访问数
-  site_uv_footer: 人次
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: 本站总访问量
-  site_pv_footer: 次
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: 本文总阅读量
-  page_pv_footer: 次
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer:
 
 
 # Tencent analytics ID
@@ -526,7 +554,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: true
+baidu_push: false
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -547,7 +575,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 10
   labels:
@@ -558,7 +586,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -603,7 +631,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false

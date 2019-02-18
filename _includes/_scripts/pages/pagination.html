@@ -36,7 +36,7 @@
 
         {% capture maps %}
           {% for name_posts in collections %}
-            '{{ name_posts[0] | url_encode }}': {{ name_posts[1].size }},
+            '{{ name_posts[0] | url_encode | replace: '+', '%20' }}': {{ name_posts[1].size }},
           {% endfor %}
         {% endcapture %}
         {% assign maps = maps | normalize_whitespace %}
@@ -55,7 +55,7 @@
         $('.collection-title')[0].childNodes[1].childNodes[0].nodeValue = collection;
         document.title = "{{ __.title[page.layout] }}: " + collection + " | {{ site.title }}";
 
-        var sizes = maps[collection];
+        var sizes = maps[encodeURIComponent(collection)];
         var base = "#" + "/" + collection;
       {% else %}
         var sizes = {{ site.posts.size }}
