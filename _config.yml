@@ -742,5 +742,8 @@ reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作�
 wechatpay: /source/images/weixin.jpg
 alipay: /source/images/zhifub.jpg
 
+# 站点建立时间
+since: 2019
+
 # Theme version
 version: 5.1.1
