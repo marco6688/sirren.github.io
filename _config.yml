@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: source/images/headerImg.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -739,8 +739,8 @@ images: assets/images
 
 # Donate 文章末尾显示打赏按钮
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: /images/weixin.jpg
-alipay: /images/zhifub.jpg
+wechatpay: /source/images/weixin.jpg
+alipay: /source/images/zhifub.jpg
 
 # Theme version
 version: 5.1.1
