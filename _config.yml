@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 时光小站
+title: renzhnetao‘Blog
 subtitle: 记录生活点滴，创造美好生活
-description:
-author: John Doe
+description: 时光小站，记录点滴生活
+author: Renzhentao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
