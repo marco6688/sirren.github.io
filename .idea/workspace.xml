@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8579c4d-9f33-4702-99ae-72255fe2c918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
         <counts>
           <entry key="HTML" value="34" />
           <entry key="Image" value="4" />
-          <entry key="Markdown" value="28" />
+          <entry key="Markdown" value="30" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SCSS" value="5" />
           <entry key="SVG" value="1" />
@@ -37,8 +37,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="126" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Markdown" value="131" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="177" />
         </counts>
       </usages-collector>
@@ -52,18 +52,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="225">
                 <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2013-12-24-elements.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="305">
-                <caret line="43" selection-start-line="43" selection-end-line="43" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,16 +80,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2013-12-24-tags.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2013-12-24-categories.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -147,8 +125,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="412">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-highlight-test.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-19-emoji-test.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -219,8 +219,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
-    <option name="y" value="38" />
+    <option name="x" value="129" />
+    <option name="y" value="35" />
     <option name="width" value="1168" />
     <option name="height" value="860" />
   </component>
@@ -290,7 +290,7 @@
       <updated>1550224402836</updated>
       <workItem from="1550224404309" duration="15753000" />
       <workItem from="1551022522876" duration="144000" />
-      <workItem from="1551064589018" duration="2693000" />
+      <workItem from="1551064589018" duration="3700000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550456048169</created>
@@ -495,14 +495,28 @@
       <option name="project" value="LOCAL" />
       <updated>1550485076759</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="第一次更新">
+      <created>1551423118279</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1551423118279</updated>
+    </task>
+    <task id="LOCAL-00031" summary="第一次更新">
+      <created>1551427089878</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1551427089878</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18590000" />
+    <option name="totallyTimeSpent" value="19597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="38" width="1168" height="860" extended-state="0" />
+    <frame x="129" y="35" width="1168" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
@@ -534,7 +548,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="第一次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/search.xml">
@@ -750,23 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-09-19-emoji-test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-20-next-tutorial.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-highlight-test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -854,10 +853,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-19-emoji-test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-highlight-test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="412">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
