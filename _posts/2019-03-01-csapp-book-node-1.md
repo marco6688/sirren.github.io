@@ -65,7 +65,7 @@ int main()
 
 ## 存储设备形成的层次结构
 
-![存储器的层次结构](../assets/images/csapp-1-9.png)
+![存储器的层次结构](/assets/images/csapp-1-9.png)
 
 
 
