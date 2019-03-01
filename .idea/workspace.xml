@@ -3,12 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="d8579c4d-9f33-4702-99ae-72255fe2c918" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="643631222">
@@ -36,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="152" />
+          <entry key="Markdown" value="820" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="177" />
         </counts>
@@ -101,20 +116,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="226">
+              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="736" column="6" selection-start-line="736" selection-end-line="736" selection-end-column="6" />
+            <state relative-caret-position="325">
+              <caret line="745" column="11" lean-forward="true" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -219,8 +234,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="35" />
+    <option name="x" value="193" />
+    <option name="y" value="458" />
     <option name="width" value="1168" />
     <option name="height" value="860" />
   </component>
@@ -290,7 +305,7 @@
       <updated>1550224402836</updated>
       <workItem from="1550224404309" duration="15753000" />
       <workItem from="1551022522876" duration="144000" />
-      <workItem from="1551064589018" duration="4791000" />
+      <workItem from="1551064589018" duration="7075000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550456048169</created>
@@ -530,17 +545,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551427707724</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="第一次更新">
+      <created>1551428522727</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1551428522727</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20688000" />
+    <option name="totallyTimeSpent" value="22972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="35" width="1168" height="860" extended-state="0" />
+    <frame x="216" y="496" width="1168" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -558,7 +580,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3294849" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -888,17 +910,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="325">
+          <caret line="745" column="11" lean-forward="true" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="736" column="6" selection-start-line="736" selection-end-line="736" selection-end-column="6" />
+        <state relative-caret-position="226">
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
         </state>
       </provider>
     </entry>
