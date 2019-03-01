@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8579c4d-9f33-4702-99ae-72255fe2c918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/csapp-1-9-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" afterDir="false" />
     </list>
@@ -51,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="820" />
+          <entry key="Markdown" value="1126" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="177" />
         </counts>
@@ -65,7 +66,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="225">
-                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                <caret line="15" selection-start-line="15" selection-end-line="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+            <state relative-caret-position="235">
+              <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -129,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="745" column="11" lean-forward="true" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="11" />
+              <caret line="745" column="11" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -139,7 +140,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
-                <caret line="8" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+                <caret line="8" selection-start-line="7" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -151,7 +152,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="375">
-                <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+                <caret line="63" selection-start-line="63" selection-end-line="63" />
               </first_editor>
               <second_editor />
             </state>
@@ -234,8 +235,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
-    <option name="y" value="458" />
+    <option name="x" value="263" />
+    <option name="y" value="351" />
     <option name="width" value="1168" />
     <option name="height" value="860" />
   </component>
@@ -305,7 +306,7 @@
       <updated>1550224402836</updated>
       <workItem from="1550224404309" duration="15753000" />
       <workItem from="1551022522876" duration="144000" />
-      <workItem from="1551064589018" duration="7075000" />
+      <workItem from="1551064589018" duration="8247000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550456048169</created>
@@ -552,17 +553,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551428522727</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="第一次更新">
+      <created>1551431092304</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1551431092304</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22972000" />
+    <option name="totallyTimeSpent" value="24144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="216" y="496" width="1168" height="860" extended-state="0" />
+    <frame x="263" y="351" width="1168" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -876,7 +884,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -894,7 +902,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="375">
-            <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <caret line="63" selection-start-line="63" selection-end-line="63" />
           </first_editor>
           <second_editor />
         </state>
@@ -904,7 +912,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="120">
-            <caret line="8" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+            <caret line="8" selection-start-line="7" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -913,14 +921,14 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="745" column="11" lean-forward="true" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="11" />
+          <caret line="745" column="11" selection-start-line="745" selection-start-column="11" selection-end-line="745" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        <state relative-caret-position="235">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
         </state>
       </provider>
     </entry>
