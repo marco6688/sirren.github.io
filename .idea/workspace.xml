@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8579c4d-9f33-4702-99ae-72255fe2c918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" afterDir="false" />
     </list>
@@ -40,7 +41,7 @@
         <counts>
           <entry key="HTML" value="34" />
           <entry key="Image" value="4" />
-          <entry key="Markdown" value="31" />
+          <entry key="Markdown" value="32" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SCSS" value="5" />
           <entry key="SVG" value="1" />
@@ -51,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="1667" />
+          <entry key="Markdown" value="1729" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="177" />
         </counts>
@@ -67,16 +68,6 @@
               <first_editor relative-caret-position="225">
                 <caret line="15" selection-start-line="15" selection-end-line="15" />
               </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2013-12-24-tags.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -116,11 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -221,6 +224,7 @@
         <option value="$PROJECT_DIR$/_data/languages/zh-Hans.yml" />
         <option value="$PROJECT_DIR$/_includes/_partials/footer.html" />
         <option value="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md" />
       </list>
     </option>
   </component>
@@ -234,8 +238,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="294" />
+    <option name="x" value="253" />
+    <option name="y" value="248" />
     <option name="width" value="1168" />
     <option name="height" value="860" />
   </component>
@@ -305,7 +309,7 @@
       <updated>1550224402836</updated>
       <workItem from="1550224404309" duration="15753000" />
       <workItem from="1551022522876" duration="144000" />
-      <workItem from="1551064589018" duration="10554000" />
+      <workItem from="1551064589018" duration="10680000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550456048169</created>
@@ -573,14 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551432606135</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="第一次更新">
+      <created>1551775168545</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1551775168545</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26451000" />
+    <option name="totallyTimeSpent" value="26577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="294" width="1168" height="860" extended-state="0" />
+    <frame x="439" y="291" width="1168" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
@@ -616,9 +627,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第一次更新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/avatar.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -940,8 +948,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
