@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8579c4d-9f33-4702-99ae-72255fe2c918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +51,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="1729" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Markdown" value="1936" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="YAML" value="177" />
         </counts>
       </usages-collector>
@@ -110,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="-22">
               <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
@@ -120,8 +119,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -238,8 +237,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="248" />
+    <option name="x" value="227" />
+    <option name="y" value="325" />
     <option name="width" value="1168" />
     <option name="height" value="860" />
   </component>
@@ -309,7 +308,7 @@
       <updated>1550224402836</updated>
       <workItem from="1550224404309" duration="15753000" />
       <workItem from="1551022522876" duration="144000" />
-      <workItem from="1551064589018" duration="10680000" />
+      <workItem from="1551064589018" duration="11358000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1550456048169</created>
@@ -584,14 +583,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551775168545</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="信息的表示和处理">
+      <created>1551775374901</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1551775374901</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26577000" />
+    <option name="totallyTimeSpent" value="27255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="439" y="291" width="1168" height="860" extended-state="0" />
+    <frame x="227" y="325" width="1168" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25843695" />
@@ -624,7 +630,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="第一次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次更新" />
+    <MESSAGE value="信息的表示和处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="信息的表示和处理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/images/loading.gif">
@@ -948,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-01-csapp-book-node-1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="-22">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
@@ -956,8 +963,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-05-csapp-book-node-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
