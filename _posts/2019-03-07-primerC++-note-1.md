@@ -55,9 +55,11 @@ c++定义了一套包括算数类型和空类型的基本数据类型，算数�
 
 变量的定义形式是:首先是类型说明符，随后紧跟一个或者多个变量名组成的列表，其中变量名以逗号分割，最后以分号结束。定义时还可以为一个或者多个变量赋值。
 
-``` C++
+```C++
+
 int sum = 0,value, //sum和value和ubits_sole都是int
 units_sold = 0;     //sum和ubits_sole的初始值是0
 Sales_item item     //item是Sales_item类型
 std::string book("0-100-22222-X");//book是通过string字面值初始化的
+
 ```
