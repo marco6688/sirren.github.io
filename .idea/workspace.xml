@@ -52,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Markdown" value="4823" />
+          <entry key="Markdown" value="5245" />
           <entry key="PLAIN_TEXT" value="93" />
           <entry key="YAML" value="177" />
         </counts>
@@ -92,9 +92,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-07-primerC++-note-1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="467">
-                <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="167">
+                <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
               </first_editor>
               <second_editor />
             </state>
@@ -431,21 +431,7 @@
       <workItem from="1550224404309" duration="15753000" />
       <workItem from="1551022522876" duration="144000" />
       <workItem from="1551064589018" duration="13379000" />
-      <workItem from="1551781751936" duration="9719000" />
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1550456048169</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1550456048169</updated>
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <created>1550456584099</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1550456584099</updated>
+      <workItem from="1551781751936" duration="11146000" />
     </task>
     <task id="LOCAL-00003" summary="init">
       <created>1550458747181</created>
@@ -776,11 +762,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552037294542</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add note">
+      <created>1552040691247</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1552040691248</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add note">
+      <created>1552041096018</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1552041096018</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38995000" />
+    <option name="totallyTimeSpent" value="40422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="730" y="0" width="710" height="900" extended-state="0" />
@@ -1170,9 +1170,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-07-primerC++-note-1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="467">
-            <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="167">
+            <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
           </first_editor>
           <second_editor />
         </state>
