@@ -249,6 +249,41 @@ const int &r=ci；        //所有引用的const都是顶层const
 
 C++ 11新标准规定允许将变量声明为constexpr类型以便由编译器验证变量是否是一个常量表达式，
 
+# 类型处理
+
+随着程序的复杂，程序中用到的类型也变得复杂，这种复杂体现在两个方面。一个是难以拼写，他们的名字既难记又容易写错，无法标明真实含义。二是根本搞不清楚到底需要什么类型，程序员不得不回过头从程序的上下文中寻求帮助。
+
+## 类型别名
+
+*类型别名*是一个名字，他是某种类型的同义词，
+
+```c++
+//关键字 typedef
+
+typedef double wages; //wages是double的同义词
+typedef wages base,*p; //base是double的同义词,p是double*的同义词
+
+//关键字 using
+
+using SI = Sales_item; //SI是Sales_item的同义词
+
+//指针常量和类型别名
+
+typedef char *pasting; // pasting是char*的别名
+const pasting cstr = 0;// cstr 是指向char的常量指针
+const pasting *ps;//   //ps是一个指针，他的对象是指向char的常量指针
+
+```
+
+## auto类型说明符
+
+*auto*类型说明符是让编译器根据初始值分析变量类型，所以一定要有初始值。
+
+## decltype 类型提示符
+
+*decltype*是选择并返回操作数的数据类型。
+
+#自定义数据结构
 
 
 
