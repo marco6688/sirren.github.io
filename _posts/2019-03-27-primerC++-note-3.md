@@ -184,7 +184,7 @@ dynamic_cast|特殊属性转换|dynamic_cast<type_to>(type_from);|不可重载
 static_cast|特殊属性转换|static_cast<type_to>(type_from);|不可重载
 reinterpret_cast|特殊属性转换|reinterpret_cast<type_to>(type_from);|不可重载
 typeid|对象类型符|cout &laquo; typeid(var).name();|不可重载
-||cout &laquo; typeid(type).name();|
+\||cout &laquo; typeid(type).name();|
 第三级别(具有右结合性)|||
 !|逻辑取反|if( !done ) …|可重载
 not|! 的另一种表达||
@@ -197,7 +197,7 @@ compl|~的另一种表达||
 *|指针取值|int data = *intPtr;|可重载
 &|值取指针|int *intPtr = &data;|可重载
 new|动态元素内存分配|long *pVar = new long;|可重载
-||MyClass *ptr = new MyClass(args);|
+\||MyClass *ptr = new MyClass(args);|
 new []|动态数组内存分配|long *array = new long[n];|可重载
 delete|动态析构元素内存|delete pVar;|可重载
 delete []|动态析构数组内存|delete [] array;|可重载
@@ -234,13 +234,13 @@ bitand|&的另一种表达||
 ^|位异或运算|flags = flags ^ 42;|可重载
 xor|^的另一种表达||
 第十二级别|||
-||位或运算|flags = flags | 42;|可重载
+\||位或运算|flags = flags | 42;|可重载
 bitor||的另一种表达||
 第十三级别|||
 &&|逻辑且运算|if( conditionA && conditionB ) …|可重载
 and|&&的另一种表达||
 第十四级别|||
-|||逻辑或运算|if( conditionA || conditionB ) ...|可重载
+\|\||逻辑或运算|if( conditionA || conditionB ) ...|可重载
 or|||的另一种表达||
 第十五级别(具有右结合性)|||
 ? :|条件运算符|int i = (a > b) ? a : b;|不可重载
