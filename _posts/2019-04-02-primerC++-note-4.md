@@ -154,15 +154,13 @@ return语句，终止函数的执行
 ---|---|---
 exception|The most general kind of problem.|最常见的问题。
 runtime_error|Problem that can be detected only at run time.|运行时错误：仅在运行时才能检测到问题
-range_error|Run-time error: result generated outside the range of
-values that are meaningful.|运行时错误：生成的结果超出了有意义的值域范围
+range_error|Run-time error: result generated outside the range of values that are meaningful.|运行时错误：生成的结果超出了有意义的值域范围
 overflow_error|Run-time error: computation that overflowed.|运行时错误：计算上溢
 underflow_error|Run-time error: computation that underflowed.|运行时错误：计算下溢
 logic_error|Problem that could be detected before run time.|逻辑错误：可在运行前检测到问题
 domain_error|Logic error: argument for which no result exists.|逻辑错误：参数的结果值不存在
 invalid_argument|Logic error: inappropriate argument.|逻辑错误：不合适的参数
-length_error|Logic error: attempt to create an object larger than the
-maximum size for that type.|逻辑错误：试图生成一个超出该类型最大长度的对象
+length_error|Logic error: attempt to create an object larger than the maximum size for that type.|逻辑错误：试图生成一个超出该类型最大长度的对象
 out_of_range|Logic error: used a value outside the valid range.|逻辑错误：使用一个超出有效范围的值
 
 
