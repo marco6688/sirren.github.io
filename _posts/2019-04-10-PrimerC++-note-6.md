@@ -247,6 +247,86 @@ Sales_data::Sales_data(istream &is)
 
 ## 拷贝、赋值和析构
 
+类在以下几种情况下会被拷贝
+
+* 初始化变量以及以值得方式传递或返回一个对象
+* 当我们使用赋值运算符时会发生对象的赋值操作
+
+当对象不存在时执行销毁动作，比如一个局部变量在创建它的作用快结束时被销毁，当vector对象销毁时其中的存储的对象也会被销毁
+
+当类需要分配类对象之外的资源时，当类被销毁时需要手动释放这些资源
+
+# 访问控制与封装
+
+使用**访问说明符**加强类的封装性：
+
+* 定义在public说明符之后的成员在整个程序内都可以访问
+* 定义在private说明符的成员可以被类的成员函数访问，但是不能使用该类的代码访问
+
+```
+class Sales_data
+{
+
+public:    
+    //成员函数
+    Sales_data()=default;
+    string isbn() const //返回书本isbn号，这里的const待会解释
+    {
+        return bookNo;
+    }
+    Sales_data& combine(const Sales_data&); //函数声明
+    double avg_price() const; //返回售出书籍的均价，这里的const也待会解释
+private:
+    //数据成员
+    string bookNo; //书号
+    unsigned units_sold = 0; //售出册数
+    double revenue = 0; //总销售收入
+}
+
+```
+作为接口的一部分,构造函数和部分成员函数紧跟着public说明符之后，而数据成员和作为实现部分的函数跟在private说明符后面
+
+一个类可以包含0个或者多个说明符，对于每个说明符出现的次数也没有严格的限制。每个说明符指定了接下来的成员访问级别，有效的范围是下一次出现说明符活到达类的结尾处
+
+定义类使用**class**或**struct**,本质上没有区别。唯一的区别是使用class在访问说明符之前的成员是private，使用struct则属性是public
+
+## 友元
+
+Sales_data的数据成员是private的，而函数read、print、add作为类的一部分，但是他们不是类的成员
+
+类可以允许其他类或者函数访问他们的非公有成员，令其他类成为他的**有元**，只需要在增加一条以friend关键字开始的函数声明
+
+```
+struct Sales_data
+{
+    friend istream &read(istream&, Sales_data&);
+
+private:
+    //数据成员
+    string bookNo; //书号
+    unsigned units_sold = 0; //售出册数
+    double revenue = 0; //总销售收入
+
+public:
+    //成员函数
+    string isbn() const //返回书本isbn号，这里的const待会解释
+    {
+        return bookNo;
+    }
+    Sales_data& combine(const Sales_data&); //函数声明
+    double avg_price() const; //返回售出书籍的均价，这里的const也待会解释
+}
+istream &read(istream&, Sales_data&) //声明在类外且无作用域符号，为非成员函数
+{
+    double price = 0;
+    is >> item.bookNo >> item.units_sold >> price;
+    item.revenue = price * item.units_sold;
+    return is;
+}
+
+```
+
+友元只能在类的内部声明，并且不受访问修饰符的限制
 
 
 
