@@ -509,3 +509,134 @@ class Screen
 
 ### 友元声明和作用域
 
+当我们声明一个友元函数时，当前作用域中可以不包含这个函数，但是定义这个函数的时候其中使用的要包含在当前作用域中
+
+```c++
+struct X
+{
+    friend void f(){} //友元函数，定义在类内部
+    X(){ f(); } //默认构造函数调用f
+    //这种调用时错误的，因为f没有被声明
+
+    //俩成员函数的声明
+    void g();
+    void h();
+}
+
+void X::g(){f();} //错误，f没有被声明
+void f(); //好，现在声明了
+void X::h() {f();} //这样就对了
+```
+
+# 类的作用域
+
+每个类都有自己的作用域，在类的作用域之外，普通的数据和函数成员只能由对象、引用或者指针使用成员访问运算符来访问
+
+```c++
+Screen::pos ht = 24, wd = 80;
+Screen scr(ht, wd, ' '); //调用构造函数实例化一个对象scr
+Screen *p = &scr; //p是指向对象的指针
+char c = scr.get(); //通过scr对象，调用成员函数get去获取字符
+c = p->get(); //通过指针调用get函数
+```
+
+下面给Window_mgr类添加一个成员函数，返回刚加入数据的id
+
+```
+class Window_mgr
+{
+public:
+    //向窗口添加一个Screen，返回它的编号
+    ScreenIndex addScreen(const Screen&);
+};
+Window_mgr::ScreenIndex Window_mgr::addScreen(const Screen &s)
+{
+    screens.push_back(s);
+    return screens.size()-1;
+}
+```
+
+## 名字查找与类的作用域
+
+**名字查找**是寻找所用名字最佳匹配的声明过程
+
+1. 首先会在名字所在的快中寻找声明语句，只考虑名字在使用之前的声明
+2. 没有找到回去查找外层作用域
+3. 最终没有找到会报错
+
+对于类内部的成员函数来说，解析其中的名字与上述的查找规则有所区别
+
+1. 首先，编译成员的声明
+2. 直到类全部可见的时候才编译函数体
+
+### 用于类成员声明的名字查找
+
+上面只适用于成员函数中使用的名字，声明中使用的名字包括返回类型和形参列表使用的名字都必须确保使用前可见，如果某个类中使用的类中尚未出现的名字，编译器会在定义该类的作用域中继续查找
+
+内层作用域可以重新定义外层作用域的名字，即时该名字在内层作用域中是用过。然而在类中，如果成员使用外层作用域中的名字，而改名字代表一种类型，二值化不能再之后重新定义该名字
+
+```
+typedef double Money;
+string bal = "a";
+class Accout
+{
+public:
+    Money balance()
+    {
+        return bal;			//使用的是类内的成员变量，返回1
+    }
+private:
+    Money bal = 1;
+    typedef double Money; //这样不行的，重新定义类型不能覆盖，是错误的行为
+    //但是编译器并不会报错，所以要自己小心
+};
+```
+
+### 成员定义中的普通块作用域的名字查找
+
+成员函数使用的名字按照以下解析：
+
+1. 在成员函数内查找该属性的声明，只有函数使用之前出现的声明才会被考虑
+2. 成员函数没有找到，再类内继续查找
+3. 类内没有找到，去定义类的外层作用域找
+
+下面代码说明成员作用域：
+
+```
+int height = 1;
+class Screen
+{
+public:
+    typedef string::size_type pos;
+    void f(pos height)
+    {
+        cursor = width * height; //这里的height是形参，会覆盖类成员
+    }
+private:
+    pos cursor = 0;
+    pos height = 0, width = 0;
+};
+```
+
+如果我们要强制使用类成员，第一种我们可以改变形参名称，第二种是我们使用类运算符指定成员
+
+```c++
+void f(pos height)
+{
+	cursor = width * this->height; 	//使用this操作符
+	cursor = width * Screen::height; 	//使用类属性
+}
+```
+
+使用类作用域之外的成员，在外围的作用域查找
+
+```
+void Screen::f(pos height)
+{
+    cursor = width * ::height; //用的是外面那个全局的
+}
+
+```
+
+# 构造函数再探
+
