@@ -11,30 +11,47 @@ int reset(int *p1,int *p2);
 
 int sum_num(vector<int> arr,int &cut );
 
+class Screen
+{
+public:
+    Screen &set(char);
+    const Screen &display();
+
+    Screen &display()
+    {
+        do_display();
+        return *this;
+    }
+    const Screen &display()
+    {
+        do_display();
+        return *this;
+    }
+private:
+    void do_display() const
+    {
+        cout << this->contents << endl;
+    }
+};
+
+inline Screen &Screen::set(char c)
+{
+    contents[cursor] = c;
+    return *this;
+}
+const Screen &display()
+{
+    cout << this->contents << endl;
+    return *this;
+}
+
 int main(){
 
-//   vector<string> v5(10,'100');
-//    vector<string> mygoal = { "Try", "my", "best" };
-//int a1 = 10,b1 = 20;
-//
-//reset(&a1,&b1);
-//cout<<a1<<"-"<<b1<<endl;
-vector<int> aa;
-aa.push_back(1);
-aa.push_back(2);
-aa.push_back(3);
-aa.push_back(4);
-int num = 0;
-
-int a1 = sum_num(aa,num);
-std::cout << a1 << ' '<<endl;
-std::cout << num << ' '<<endl;
-
-//    while(cin>>line){
-//        cout<< "hi:" << endl;
-//        cout<< line << endl;
-//    }
-    return 0;
+    Screen myScreen(2, 4);
+    const Screen blank();
+    myScreen.display().set('*'); //对
+    blank.display(); //对
+    blank.display(); //错
 }
 
 //int iPrint(vector aaa){
@@ -68,3 +85,5 @@ int sum_num(vector<int> arr,int &cut ){
     }
     return num;
 }
+
+
