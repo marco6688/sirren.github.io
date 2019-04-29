@@ -51,5 +51,5 @@ ofstream print(ofstream); //错误：这里是一个print声明，
 
 IO操作与生俱来的问题就是可能发生错误，IO类定义了一些函数和标志，可以帮我们访问和操纵流的条件状态
 
-![IO库条件状态](/assets/images/20190429IO1.png)
-![IO库条件状态](/assets/images/20190429IO2.png)
+![IO库条件状态](/assets/images/2019-04-29IO1.png)
+![IO库条件状态](/assets/images/2019-04-29IO2.png)
