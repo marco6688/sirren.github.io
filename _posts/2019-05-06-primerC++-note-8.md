@@ -73,7 +73,19 @@ forward_list不支持递减操作，因为他是单向链表
 
 ## 容器类型成员
 
+反向迭代器就是执行++操作会得到上一个元素
 
+通过类型别名，我们可以在不了解容器中元素类型的情况下使用它。
+如果需要元素类型，使用容器的value_type，如果是指针类型可以使用reference和const_reference
+
+```
+//iter 是通过list<string> 定义的迭代器类型
+list<string>::iterator iter;
+//count 是通过vector<int>定义的一个difference_type
+vector<int>::difference_type count;
+```
+
+## 
 
 
 
